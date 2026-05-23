@@ -1,0 +1,244 @@
+{
+  "_comment": "sprite_table_addr and pointer_base are hex Z80 memory addresses (or negative signed offsets for C64 builds). version is a hex bitmask of flags: 0x01=V_OFFSET_TABLE, 0x02=V_RELATIVE_OFFSET, 0x04=V_LIMITED_OFFSET, 0x08=V_LIMITED_CHARACTER, 0x10=V_HEADER_OFFSETS, 0x20=V_COLOUR_TYPE, 0x40=V_XOFF_ADJUST. Each game has a 'name' and a 'machines' dict with 'zx' and/or 'c64' entries.",
+  "games": {
+    "s1": {
+      "name": "Adventureland",
+      "machines": {
+        "zx": {
+          "version": "0x51",
+          "strings": [
+            {
+              "offset": "0x24eb",
+              "string": "BAD DATA"
+            },
+            {
+              "offset": "0x2120",
+              "string": "SAGA1"
+            }
+          ],
+          "sprite_table_addr": "0x631e",
+          "pointer_base": "0x3fe5",
+          "graphic_count": 41
+        }
+      }
+    },
+    "s3": {
+      "name": "Secret Mission",
+      "machines": {
+        "zx": {
+          "version": "0x51",
+          "strings": [
+            {
+              "offset": "0x24eb",
+              "string": "BAD DATA"
+            },
+            {
+              "offset": "0x2120",
+              "string": "SAGA3"
+            }
+          ],
+          "sprite_table_addr": "0x625d",
+          "pointer_base": "0x3fe5",
+          "graphic_count": 44
+        }
+      }
+    },
+    "s10": {
+      "name": "Savage Island 1",
+      "machines": {
+        "zx": {
+          "version": "0x33",
+          "strings": [
+            {
+              "offset": "0x2423",
+              "string": "BAD DATA"
+            },
+            {
+              "offset": "0x1d92",
+              "string": "savag1"
+            }
+          ],
+          "sprite_table_addr": "0x570f",
+          "pointer_base": "0x0",
+          "graphic_count": 37
+        }
+      }
+    },
+    "s11": {
+      "name": "Savage Island 2",
+      "machines": {
+        "zx": {
+          "version": "0x33",
+          "strings": [
+            {
+              "offset": "0x2423",
+              "string": "BAD DATA"
+            },
+            {
+              "offset": "0x1d92",
+              "string": "savag2"
+            }
+          ],
+          "sprite_table_addr": "0x57d0",
+          "pointer_base": "0x0",
+          "graphic_count": 21
+        }
+      }
+    },
+    "s13": {
+      "name": "Sorcerer of Claymorgue Castle",
+      "machines": {
+        "zx": {
+          "version": "0x51",
+          "strings": [
+            {
+              "offset": "0x24e2",
+              "string": "BAD DATA"
+            }
+          ],
+          "sprite_table_addr": "0x6007",
+          "pointer_base": "0x3fe5",
+          "graphic_count": 38
+        },
+        "c64": {
+          "version": "0x51",
+          "sprite_table_addr": "0x7398",
+          "pointer_base": -128,
+          "graphic_count": 44
+        }
+      }
+    },
+    "q1": {
+      "name": "Hulk",
+      "machines": {
+        "zx": {
+          "version": "0x0",
+          "strings": [
+            {
+              "offset": "0x313b",
+              "string": "QUESTPROBE-ONE"
+            }
+          ],
+          "sprite_table_addr": "0x281b",
+          "pointer_base": "0x741b",
+          "graphic_count": 39
+        }
+      }
+    },
+    "q2": {
+      "name": "Spiderman",
+      "machines": {
+        "zx": {
+          "version": "0x51",
+          "strings": [
+            {
+              "offset": "0x2553",
+              "string": "BAD DATA"
+            }
+          ],
+          "sprite_table_addr": "0x6296",
+          "pointer_base": "0x3fe5",
+          "graphic_count": 41
+        },
+        "c64": {
+          "version": "0x51",
+          "sprite_table_addr": "0x79eb",
+          "pointer_base": -128,
+          "graphic_count": 41
+        }
+      }
+    },
+    "o1": {
+      "name": "Supergran",
+      "machines": {
+        "zx": {
+          "version": "0x33",
+          "strings": [
+            {
+              "offset": "0x1d20",
+              "string": "SUPERGRAN"
+            }
+          ],
+          "sprite_table_addr": "0x5a4e",
+          "pointer_base": "0x0",
+          "graphic_count": 47
+        }
+      }
+    },
+    "o2": {
+      "name": "Gremlins",
+      "machines": {
+        "zx": {
+          "version": "0x33",
+          "strings": [
+            {
+              "offset": "0x2426",
+              "string": "BAD DATA"
+            },
+            {
+              "offset": "0x2021",
+              "string": "GREM01"
+            }
+          ],
+          "sprite_table_addr": "0x5be1",
+          "pointer_base": "0x0",
+          "graphic_count": 78
+        }
+      }
+    },
+    "o3": {
+      "name": "Robin of Sherwood",
+      "machines": {
+        "zx": {
+          "version": "0x3f",
+          "strings": [
+            {
+              "offset": "0x2102",
+              "string": "ROBIN1"
+            }
+          ],
+          "sprite_table_addr": "0x614f",
+          "pointer_base": "0",
+          "graphic_count": 83,
+          "pointer_table_addr": "0x66bf"
+        }
+      }
+    },
+	 "f1": {
+      "name": "Seas of Blood",
+      "machines": {
+        "zx": {
+          "version": "0x3f",
+          "strings": [
+            {
+              "offset": "0x1e37",
+              "string": "blood"
+            }
+          ],
+          "sprite_table_addr": "0x7389",
+          "pointer_base": "0",
+          "graphic_count": 139,
+          "pointer_table_addr": "0x7a89"
+        }
+      }
+	 },
+    "f3": {
+      "name": "Temple of Terror",
+      "machines": {
+        "zx": {
+          "version": "0x3f",
+          "strings": [
+            {
+              "offset": "0x53d5",
+              "string": "TEMPLE"
+            }
+          ],
+          "sprite_table_addr": "0x83e6",
+          "pointer_base": "0",
+          "graphic_count": 139,
+          "pointer_table_addr": "0x8a44"
+        }
+      }
+    }
+  }
+}
